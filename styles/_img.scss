@@ -1,0 +1,36 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+@media screen and (min-width: 769px) {
+    .image-picture {
+    background-image: url('../images/image.jpg');
+    height: 30.375rem;
+    width: 54rem;
+    background-size: cover;
+    background-position: center;  
+}
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .image-picture {
+    background-image: url('../images/tablet-image.jpg');
+    height: 32rem;
+    width: 38.563rem;
+    background-size: cover;
+    background-position: center;  
+}
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .image-picture {
+    background-image: url('../images/phone-image.png');
+    height: 17.75rem;
+    width: 16rem;
+  
+    background-position: center;  
+   
+}
+}

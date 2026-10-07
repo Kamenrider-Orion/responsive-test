@@ -1,0 +1,85 @@
+
+@media screen and (min-width: 769px) {
+    .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+}
+    .text-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5.625rem;
+    font-weight: 500;
+    line-height: 6.375rem;
+    letter-spacing: -0.125rem;
+    color: black;
+}
+.text-paragraph {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.375rem;
+    line-height: 2.063rem;
+    color: black;
+    max-width: 35.844rem;
+    text-align: center;
+    margin-left: 3.188rem;
+    margin-right: 3.25rem;
+}
+}
+@media screen and (max-width: 768px) {
+    .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+}
+    .text-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 5.175rem;
+    letter-spacing: -0.1rem;
+    color: black;
+}
+.text-paragraph {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.375rem;
+    line-height: 2.063rem;
+    color: black;
+    max-width: 35.844rem;
+    text-align: center;
+    margin-left: 3.188rem;
+    margin-right: 3.25rem;
+}
+    
+}
+@media screen and (max-width: 425px) {
+    .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+}
+   .text-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.475rem;
+    letter-spacing: -0.05rem;
+    color: black;
+}
+.text-paragraph {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: black;
+    max-width: 35.844rem;
+    min-width: 13.563rem;
+    text-align: center;
+    margin-left: 3.188rem;
+    margin-right: 3.25rem;
+}
+    
+}

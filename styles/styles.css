@@ -1,0 +1,282 @@
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo-text {
+    font-family: "Aldrich", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.016rem;
+    color: black;
+    text-decoration: none;
+  }
+  a {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: black;
+    text-decoration: none;
+  }
+  .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 427px) {
+  .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo-text {
+    font-family: "Aldrich", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.016rem;
+    color: black;
+    text-decoration: none;
+  }
+  a {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: black;
+    text-decoration: none;
+  }
+  .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 426px) and (min-width: 320px) {
+  .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo-text {
+    font-family: "Aldrich", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.016rem;
+    color: black;
+    text-decoration: none;
+  }
+  a {
+    display: none;
+  }
+  .nav-links {
+    display: cover;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 5.625rem;
+    font-weight: 500;
+    line-height: 6.375rem;
+    letter-spacing: -0.125rem;
+    color: black;
+  }
+  .text-paragraph {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.375rem;
+    line-height: 2.063rem;
+    color: black;
+    max-width: 35.844rem;
+    text-align: center;
+    margin-left: 3.188rem;
+    margin-right: 3.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 5.175rem;
+    letter-spacing: -0.1rem;
+    color: black;
+  }
+  .text-paragraph {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.375rem;
+    line-height: 2.063rem;
+    color: black;
+    max-width: 35.844rem;
+    text-align: center;
+    margin-left: 3.188rem;
+    margin-right: 3.25rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.475rem;
+    letter-spacing: -0.05rem;
+    color: black;
+  }
+  .text-paragraph {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: black;
+    max-width: 35.844rem;
+    min-width: 13.563rem;
+    text-align: center;
+    margin-left: 3.188rem;
+    margin-right: 3.25rem;
+  }
+}
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .image-picture {
+    background-image: url("../images/image.jpg");
+    height: 30.375rem;
+    width: 54rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .image-picture {
+    background-image: url("../images/tablet-image.jpg");
+    height: 32rem;
+    width: 38.563rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .image-picture {
+    background-image: url("../images/phone-image.png");
+    height: 17.75rem;
+    width: 16rem;
+    background-position: center;
+  }
+}
