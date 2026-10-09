@@ -19,16 +19,27 @@
             <div class="logo">
                 <h4 class="logo-text">Head.</h4>
             </div>
-            <div class="nav-links">
-              <a href="#">Works</a>
-              <a href="#">Services</a>
-              <a href="#">Contact</a>
+            <div class="nav-links nav" id="nav-bar">
+              <a class="link" href="#">Works</a>
+              <a class="link" href="#">Services</a>
+              <a class="link" href="#">Contact</a>
+              <a class="icon" onclick="burgerMenu()">
+        <i class="fa fa-bars"></i>
+        </a>
             </div>
-            <div class="nav-icons">
-              <i class="fa-solid fa-ellipsis"></i>
-            </div>
+            
         
     </nav>
+    <script>
+    function burgerMenu() {
+        let burger = document.getElementById("nav-bar");
+        if (burger.className === "nav") {
+        burger.className += " responsive";
+        } else {
+        burger.className = "nav";
+        }
+    }
+    </script>
     </header>
     <section class="text">
         <div class="text-container">
